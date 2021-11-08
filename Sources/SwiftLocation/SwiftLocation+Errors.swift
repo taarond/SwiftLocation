@@ -119,7 +119,7 @@ public extension LocationManager {
     class Logger {
         
         /// enable or disable logger.
-        static var isEnabled = true
+        static var isEnabled = false
         
         /// Queue.
         private static var queue = DispatchQueue(label: "locator.logger", qos: .background)
